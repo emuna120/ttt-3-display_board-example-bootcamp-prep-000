@@ -1,1 +1,20 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
+def display_board
+  line_for_input
+  line_for_seperation
+  line_for_input
+  line_for_seperation
+  line_for_input
+end  
+
+def line_for_input
+  spaces = "   "
+  vertical_line = "|"
+  puts spaces, vertical_line, spaces, vertical_line, spaces
+end
+
+def line_for_seperation
+  num_of_h_lines = 9
+  horizontal_line = "-"
+  puts horizontal_line * num_of_h_lines
+end  
