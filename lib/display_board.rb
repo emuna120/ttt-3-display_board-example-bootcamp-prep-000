@@ -1,12 +1,12 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
   line_for_input.each {|ele| print ele }
- 
+  puts
   puts line_for_seperation
   line_for_input.each {|ele| print ele}
-  
+  puts
   puts line_for_seperation
-  puts line_for_input {|ele| print ele}
+  line_for_input {|ele| print ele}
 end  
 
 def line_for_input
