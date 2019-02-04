@@ -16,7 +16,7 @@ def line_for_input
 end
 
 def line_for_seperation
-  num_of_h_lines = 9
+  num_of_h_lines = 11
   horizontal_line = "-"
   horizontal_line * num_of_h_lines
 end  
