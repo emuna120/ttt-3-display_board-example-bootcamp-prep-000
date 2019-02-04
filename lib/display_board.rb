@@ -7,6 +7,7 @@ def display_board
   puts
   puts line_for_seperation
   line_for_input.each {|ele| print ele}
+  puts
 end  
 
 def line_for_input
