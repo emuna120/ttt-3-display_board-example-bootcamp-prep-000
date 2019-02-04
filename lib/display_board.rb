@@ -4,7 +4,7 @@ def display_board
  
   puts line_for_seperation
   line_for_input.each {|ele| print ele}
-  puts
+  
   puts line_for_seperation
   puts line_for_input {|ele| print ele}
 end  
